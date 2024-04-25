@@ -1,0 +1,54 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-image: url('../Image/backgound.jpg');
+    background-size: cover;
+  color: #fff;
+  text-align: center;
+  
+}
+*{
+  text-transform: uppercase;
+}
+body {
+  max-width: 1400px;
+  margin: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+
+  border-radius: 5px;
+
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {  
+  outline: none;
+}
+
+
+.ui.inverted.attached.header {
+  background: #000245 linear-gradient(transparent,rgba(0,0,0,.05));
+  box-shadow: none;
+  border-color: transparent;
+  padding-inline: 30px;
+}
