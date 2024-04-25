@@ -28,7 +28,7 @@ For Linux/Mac OS:
 First, clone the repository:
 
 ```shell
-  git clone https://github.com/GenaroIBC/fullstack-todo-app.git
+  git clone https://github.com/vaibhav24042001/nextjs_todo.git
 ```
 
 Then, change to the project's directory and install dependencies:
